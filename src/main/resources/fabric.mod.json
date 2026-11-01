@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "homestead_player_animations",
+  "version": "${version}",
+  "name": "Homestead Player Animations",
+  "description": "Actions & Stuff-inspired additive player movement and tool poses for Homestead.",
+  "environment": "client",
+  "mixins": ["homestead-player-animations.mixins.json"],
+  "entrypoints": {"modmenu": ["dev.homestead.animations.HomesteadModMenu"]},
+  "depends": {"fabricloader": ">=0.14.0", "minecraft": "1.20.1", "java": ">=17"},
+  "suggests": {"modmenu": "*"}
+}
